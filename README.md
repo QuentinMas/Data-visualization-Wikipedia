@@ -70,8 +70,11 @@ By uploading the edges and nodes data in [Gephi](https://gephi.org/) the followi
 
 ![Wikipedia AI related pages network](https://github.com/QuentinMas/Data-visualization-Wikipedia/blob/main/AI_wiki_page_network.png)
 
+< *Spatialisation algorithm : Force Atlas* >
+
 
 The different color represent communities. These [communities](https://en.wikipedia.org/wiki/Community_structure) represent group of pages that have a lot of link to each others. Here they can also represent page categories.
 
 ![Wikipedia AI related pages network with communities names](https://github.com/QuentinMas/Data-visualization-Wikipedia/blob/main/AI_wiki_page_network_communities.png)
 
+The center of the graph is the page [Artificial Inteligence](https://en.wikipedia.org/wiki/Artificial_intelligence) and the farest we go from the center the less the pages are about artificial inteligence. For instance the farest pages from the center (top-left) are about [botnets](https://en.wikipedia.org/wiki/Botnet) which are not realy linked to artificial inteligence. But from the page [botnets](https://en.wikipedia.org/wiki/Botnet) you can find a link to the page [robot](https://en.wikipedia.org/wiki/Robot) which gives you a link to the page [artificial inteligence](https://en.wikipedia.org/wiki/Artificial_intelligence).
