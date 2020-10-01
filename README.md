@@ -1,5 +1,7 @@
 # Data-visualization-Wikipedia
 
+On wikipedia page are link to each other by link (reference to other wikipedia pages). Here I use these links to draw the graph network of wikipedia pages related to the artificial inteligence field. I also use this graph to find pages communities.
+
 ## Extracting data from the wikipedia API
 
 ### Find all the nodes of selected categories
@@ -72,3 +74,4 @@ By uploading the edges and nodes data in [Gephi](https://gephi.org/) the followi
 The different color represent communities. These [communities](https://en.wikipedia.org/wiki/Community_structure) represent group of pages that have a lot of link to each others. Here they can also represent page categories.
 
 ![Wikipedia AI related pages network with communities names](https://github.com/QuentinMas/Data-visualization-Wikipedia/blob/main/AI_wiki_page_network_communities.png)
+
